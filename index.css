@@ -1,0 +1,72 @@
+
+  *{
+    box-sizing:border-box;
+    font-family: cursive;
+    font-size: 18px;
+  }
+  body{
+    margin:0;
+    padding:0;
+   background-image:url(1.gif);
+   background-size: cover;
+  /*  background-color:  #FF5733;
+*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+      height: 100vh ;
+  }
+  .loginform {
+    color :white;
+    border:1px solid transparent;
+    border-radius:5%;
+    display:flex;
+    background-color:rgb(240,255,240,0.1);
+    width:500px ;
+    height:300px;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+
+  .registerform {
+    color:white;
+    border:1px solid transparent;
+    border-radius:5%;
+    display:flex;
+    background-color:rgb(240,255,240,0.1);
+    width:500px ;
+    height:500px;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+  }
+
+  .formdiv{
+    display:flex;
+    width:80%;
+    height:10%;
+    margin-top:20px;
+    justify-content:space-around;
+    align-items: center;
+  }
+  input{
+    width:200px;
+    height:25xpx;
+  }
+  #loginbutton{
+    margin-top: 20px;
+    width: 150px;
+    height:30px;
+  }
+  #SignUp{
+        margin-top: 20px;
+    width: 150px;
+    height:30px;
+  }
+  .error_span{
+display: none;
+    color:red;
+
+  }

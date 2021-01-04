@@ -1,0 +1,45 @@
+*{
+  box-sizing:border-box;
+  font-family: cursive;
+  color:white;
+  font-size: 18px;
+}
+body{
+  margin:0;
+  padding:0;
+ background-image:url(1.gif);
+ background-size: cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh ;
+}
+
+h1 {
+font-size: 40px;
+}
+
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+  width:100%;
+}
+
+tr {
+ height : 70px ;
+  border :  1px solid white
+}
+th {
+
+border : 2px solid white;
+}
+td {
+  border : 2px solid white;
+}
+button {
+  background-color: white;
+  color: black;
+}
